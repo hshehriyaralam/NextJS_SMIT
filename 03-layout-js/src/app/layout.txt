@@ -1,0 +1,5 @@
+koi bh ayesi UI bnani hai Jo sab jaga show ho uske lye layout.js ki file nana prhta hai 
+
+... root pr jo layuot.js ki file hai ye required hai isse ham hata nh sakte 
+
+... jitne  bh hooks hain wo server side pr nh use ho sakte wo clint side main use honge uske lye ham "use Ckient" use krte hain 
