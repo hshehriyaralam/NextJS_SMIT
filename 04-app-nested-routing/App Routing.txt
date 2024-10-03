@@ -1,0 +1,11 @@
+... Pori App ka Routing tree hota hai 
+... root directory app folder hai
+
+
+... App Router 
+NextJS ke server components bnata hai 
+
+
+... NextJS file sysytem based Routing ko use krta hai 
+... Route ke Content dikhane ke lye page.js bnate hain 
+
