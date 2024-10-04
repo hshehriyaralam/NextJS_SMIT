@@ -1,0 +1,4 @@
+... Dynamic Routes : Folder ke name ko [] lr denge wo dynamic routes ban jayega 
+
+
+
