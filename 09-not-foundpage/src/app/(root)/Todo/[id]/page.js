@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 export default async function TodoDeatils({ params }){
     let  SingleTodo = await fetch(`https://dummyjson.com/todos/${params.id}`)
     SingleTodo = await SingleTodo.json()
-    console.log("SingleTodo ==>", SingleTodo);
+    console.log("SingleTodo ==>", SingleTodo);//
     if(SingleTodo.message){
         notFound()
     }

@@ -6,10 +6,15 @@ import Link from "next/link";
 // 
 
 export default async  function Qoutes() {
-  let todo = await fetch("https://dummyjson.com/todos/")
+  let todo = await fetch("https://dummyjson.com/todossss",{
+    cache: "no-cache"
+  })
   todo = await todo.json()
   // console.log("todo =>", todo);
-  
+  if(!todo.ok){
+    throw new Error("API is not working")
+    
+  }
   return (
     <div  className="w-full h-min-screen  bg-indigo-950 text-white" >
       <Header />
