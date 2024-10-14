@@ -6,9 +6,7 @@ import Link from "next/link";
 // 
 
 export default async  function Qoutes() {
-  let todo = await fetch("https://dummyjson.com/todossss",{
-    cache: "no-cache"
-  })
+  let todo = await fetch("https://dummyjson.com/todos/")
   todo = await todo.json()
   // console.log("todo =>", todo);
   if(!todo.ok){
