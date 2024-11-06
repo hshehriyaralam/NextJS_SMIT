@@ -7,7 +7,6 @@ export default async function Todos() {
     cache : "no-cache"
   })
   res = await res.json()
-  console.log("todos", res)
   return (
     <div  >
       <TodoForm />
