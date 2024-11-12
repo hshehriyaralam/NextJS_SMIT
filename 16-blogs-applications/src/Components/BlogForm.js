@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef } from "react";
-import { AddBlog } from "@/actions/blog";
+import { AddBlog } from "../../actions/blog";
 import { useRouter } from 'next/navigation'
 
 const BlogForm = () => {
